@@ -14,6 +14,11 @@
 		CE50BC882A17DB2E000B8E40 /* SimulatorLocationChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50BC872A17DB2E000B8E40 /* SimulatorLocationChangeTests.swift */; };
 		CE50BC922A17DB2E000B8E40 /* SimulatorLocationChangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50BC912A17DB2E000B8E40 /* SimulatorLocationChangeUITests.swift */; };
 		CE50BC942A17DB2E000B8E40 /* SimulatorLocationChangeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50BC932A17DB2E000B8E40 /* SimulatorLocationChangeUITestsLaunchTests.swift */; };
+		CEBBB29C2A1815FA00C73162 /* LocationSpoofer in Frameworks */ = {isa = PBXBuildFile; productRef = CEBBB29B2A1815FA00C73162 /* LocationSpoofer */; };
+		CEBBB29E2A18636C00C73162 /* LocationInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBB29D2A18636C00C73162 /* LocationInput.swift */; };
+		CEBBB2A02A1863AB00C73162 /* DeviceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBB29F2A1863AB00C73162 /* DeviceLocation.swift */; };
+		CEBBB2A32A18EC7400C73162 /* AppCodableStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBB2A22A18EC7400C73162 /* AppCodableStorage.swift */; };
+		CEBBB2A52A19A03F00C73162 /* ContentView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBB2A42A19A03F00C73162 /* ContentView+ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,10 @@
 		CE50BC8D2A17DB2E000B8E40 /* SimulatorLocationChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulatorLocationChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE50BC912A17DB2E000B8E40 /* SimulatorLocationChangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorLocationChangeUITests.swift; sourceTree = "<group>"; };
 		CE50BC932A17DB2E000B8E40 /* SimulatorLocationChangeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorLocationChangeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEBBB29D2A18636C00C73162 /* LocationInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInput.swift; sourceTree = "<group>"; };
+		CEBBB29F2A1863AB00C73162 /* DeviceLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLocation.swift; sourceTree = "<group>"; };
+		CEBBB2A22A18EC7400C73162 /* AppCodableStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCodableStorage.swift; sourceTree = "<group>"; };
+		CEBBB2A42A19A03F00C73162 /* ContentView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBBB29C2A1815FA00C73162 /* LocationSpoofer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +105,15 @@
 		CE50BC742A17DB2D000B8E40 /* SimulatorLocationChange */ = {
 			isa = PBXGroup;
 			children = (
+				CEBBB2A12A18EC5000C73162 /* AppCodableStorage */,
 				CE50BC752A17DB2D000B8E40 /* SimulatorLocationChangeApp.swift */,
 				CE50BC772A17DB2D000B8E40 /* ContentView.swift */,
 				CE50BC792A17DB2E000B8E40 /* Assets.xcassets */,
 				CE50BC7E2A17DB2E000B8E40 /* SimulatorLocationChange.entitlements */,
 				CE50BC7B2A17DB2E000B8E40 /* Preview Content */,
+				CEBBB29D2A18636C00C73162 /* LocationInput.swift */,
+				CEBBB29F2A1863AB00C73162 /* DeviceLocation.swift */,
+				CEBBB2A42A19A03F00C73162 /* ContentView+ViewModel.swift */,
 			);
 			path = SimulatorLocationChange;
 			sourceTree = "<group>";
@@ -129,6 +143,14 @@
 			path = SimulatorLocationChangeUITests;
 			sourceTree = "<group>";
 		};
+		CEBBB2A12A18EC5000C73162 /* AppCodableStorage */ = {
+			isa = PBXGroup;
+			children = (
+				CEBBB2A22A18EC7400C73162 /* AppCodableStorage.swift */,
+			);
+			path = AppCodableStorage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +167,9 @@
 			dependencies = (
 			);
 			name = SimulatorLocationChange;
+			packageProductDependencies = (
+				CEBBB29B2A1815FA00C73162 /* LocationSpoofer */,
+			);
 			productName = SimulatorLocationChange;
 			productReference = CE50BC722A17DB2D000B8E40 /* SimulatorLocationChange.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +242,9 @@
 				Base,
 			);
 			mainGroup = CE50BC692A17DB2D000B8E40;
+			packageReferences = (
+				CEBBB29A2A1815FA00C73162 /* XCRemoteSwiftPackageReference "LocationSpoofer" */,
+			);
 			productRefGroup = CE50BC732A17DB2D000B8E40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBBB2A02A1863AB00C73162 /* DeviceLocation.swift in Sources */,
+				CEBBB2A32A18EC7400C73162 /* AppCodableStorage.swift in Sources */,
 				CE50BC782A17DB2D000B8E40 /* ContentView.swift in Sources */,
 				CE50BC762A17DB2D000B8E40 /* SimulatorLocationChangeApp.swift in Sources */,
+				CEBBB29E2A18636C00C73162 /* LocationInput.swift in Sources */,
+				CEBBB2A52A19A03F00C73162 /* ContentView+ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +608,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEBBB29A2A1815FA00C73162 /* XCRemoteSwiftPackageReference "LocationSpoofer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Schlaubischlump/LocationSpoofer";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEBBB29B2A1815FA00C73162 /* LocationSpoofer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEBBB29A2A1815FA00C73162 /* XCRemoteSwiftPackageReference "LocationSpoofer" */;
+			productName = LocationSpoofer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE50BC6A2A17DB2D000B8E40 /* Project object */;
 }

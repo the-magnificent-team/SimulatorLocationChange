@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "clogger",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Schlaubischlump/CLogger.git",
+      "state" : {
+        "revision" : "3e86131e5670210f68bcf384067c49df74daa75a",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "locationspoofer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Schlaubischlump/LocationSpoofer",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9b68601e59bfbfc92a562f91cbf34277f1107bbb"
+      }
+    },
+    {
+      "identity" : "openssl-apple",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/passepartoutvpn/openssl-apple.git",
+      "state" : {
+        "revision" : "757c074af45e4f2514fe63f649ccdde966183e90",
+        "version" : "1.1.11700"
+      }
+    }
+  ],
+  "version" : 2
+}

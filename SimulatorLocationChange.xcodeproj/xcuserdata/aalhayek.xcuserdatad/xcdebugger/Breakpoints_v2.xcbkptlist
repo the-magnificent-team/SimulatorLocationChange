@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0812E8C8-5426-43A4-92AE-1EACAE13D7CA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "482BD446-51E4-48B6-9FA5-482F20111158"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimulatorLocationChange/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "482BD446-51E4-48B6-9FA5-482F20111158 - ec92e7cfb7214186"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SimulatorLocationChange.DeviceLocation) -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ForEach&lt;Swift.Array&lt;LocationSpoofer.Device&gt;, Swift.String, SwiftUI.Button&lt;SwiftUI.VStack&lt;SwiftUI.Text&gt;&gt;&gt;, SimulatorLocationChange.LocationInput)&gt; in SimulatorLocationChange.ContentView.body.getter : some"
+                  moduleName = "SimulatorLocationChange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aalhayek/iOS-Project/SimulatorLocationChange/SimulatorLocationChange/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "482BD446-51E4-48B6-9FA5-482F20111158 - 39520e4c8e5f7379"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SimulatorLocationChange.DeviceLocation) -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;LocationSpoofer.Device&gt;, Swift.String, SwiftUI.Button&lt;SwiftUI.VStack&lt;SwiftUI.Text&gt;&gt;&gt;&gt;, SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;SimulatorLocationChange.DeviceLocation&gt;, Swift.String, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;)&gt;&gt;&gt;&gt;)&gt;&gt;, SimulatorLocationChange.LocationInput)&gt; in SimulatorLocationChange.ContentView.body.getter : some"
+                  moduleName = "SimulatorLocationChange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aalhayek/iOS-Project/SimulatorLocationChange/SimulatorLocationChange/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "482BD446-51E4-48B6-9FA5-482F20111158 - 25ebf05d685fdf73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SimulatorLocationChange.DeviceLocation) -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;LocationSpoofer.Device&gt;, Swift.String, SwiftUI.Button&lt;SwiftUI.VStack&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, Swift.Optional&lt;SwiftUI.Image&gt;)&gt;&gt;&gt;&gt;&gt;&gt;, SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;SimulatorLocationChange.DeviceLocation&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt;&gt;, SimulatorLocationChange.LocationInput)&gt; in SimulatorLocationChange.ContentView.body.getter : some"
+                  moduleName = "SimulatorLocationChange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aalhayek/iOS-Project/SimulatorLocationChange/SimulatorLocationChange/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "482BD446-51E4-48B6-9FA5-482F20111158 - c633c5d08c73fd6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SimulatorLocationChange.DeviceLocation) -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;LocationSpoofer.Device&gt;, Swift.String, SwiftUI.VStack&lt;SwiftUI.Button&lt;SwiftUI.Text&gt;&gt;&gt;&gt;&gt;, SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;SimulatorLocationChange.DeviceLocation&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt;&gt;, SimulatorLocationChange.LocationInput)&gt; in SimulatorLocationChange.ContentView.body.getter : some"
+                  moduleName = "SimulatorLocationChange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aalhayek/iOS-Project/SimulatorLocationChange/SimulatorLocationChange/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4271D9C8-A308-4C3B-87B0-F33431645301"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimulatorLocationChange/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "4271D9C8-A308-4C3B-87B0-F33431645301 - 2ce5435fa0d156be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (LocationSpoofer.Device) -&gt; SwiftUI.VStack&lt;SwiftUI.Button&lt;SwiftUI.Text&gt;&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;LocationSpoofer.Device&gt;, Swift.String, SwiftUI.VStack&lt;SwiftUI.Button&lt;SwiftUI.Text&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;LocationSpoofer.Device&gt;, Swift.String, SwiftUI.VStack&lt;SwiftUI.Button&lt;SwiftUI.Text&gt;&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;LocationSpoofer.Device&gt;, Swift.String, SwiftUI.VStack&lt;SwiftUI.Button&lt;SwiftUI.Text&gt;&gt;&gt;&gt;&gt;, SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;SimulatorLocationChange.DeviceLocation&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;LocationSpoofer.Device&gt;, Swift.String, SwiftUI.VStack&lt;SwiftUI.Button&lt;SwiftUI.Text&gt;&gt;&gt;&gt;&gt;, SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;SimulatorLocationChange.DeviceLocation&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt;&gt;, SimulatorLocationChange.LocationInput)&gt; in SimulatorLocationChange.ContentView.body.getter : some"
+                  moduleName = "SimulatorLocationChange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aalhayek/iOS-Project/SimulatorLocationChange/SimulatorLocationChange/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "4271D9C8-A308-4C3B-87B0-F33431645301 - 12940b79f6234080"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.Text&gt; in closure #1 (LocationSpoofer.Device) -&gt; SwiftUI.VStack&lt;SwiftUI.Button&lt;SwiftUI.Text&gt;&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;LocationSpoofer.Device&gt;, Swift.String, SwiftUI.VStack&lt;SwiftUI.Button&lt;SwiftUI.Text&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;LocationSpoofer.Device&gt;, Swift.String, SwiftUI.VStack&lt;SwiftUI.Button&lt;SwiftUI.Text&gt;&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;LocationSpoofer.Device&gt;, Swift.String, SwiftUI.VStack&lt;SwiftUI.Button&lt;SwiftUI.Text&gt;&gt;&gt;&gt;&gt;, SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;SimulatorLocationChange.DeviceLocation&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;LocationSpoofer.Device&gt;, Swift.String, SwiftUI.VStack&lt;SwiftUI.Button&lt;SwiftUI.Text&gt;&gt;&gt;&gt;&gt;, SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;SimulatorLocationChange.DeviceLocation&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt;&gt;, SimulatorLocationChange.LocationInput)&gt; in SimulatorLocationChange.ContentView.body.getter : some"
+                  moduleName = "SimulatorLocationChange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aalhayek/iOS-Project/SimulatorLocationChange/SimulatorLocationChange/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
