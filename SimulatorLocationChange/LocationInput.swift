@@ -42,6 +42,9 @@ struct LocationInput: View {
                     // show alert
                     return
                 }
+                latText = ""
+                longText = ""
+                addressName = ""
                 addLocationItem(.init(address: addressName, latitude: lat, longitude: long))
             }.buttonStyle(.bordered)
         }.padding()
